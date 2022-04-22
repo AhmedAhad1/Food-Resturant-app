@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;500;800&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.index-body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(61, 52, 52, 0.356),
+      rgb(20, 18, 18)
+    ),
+    url(img/login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cust-bg {
+  background-color: #525e75;
+}
+.homepage-body {
+  background-color: #141e27;
+}
+.cust-radious {
+  border-radius: 10px;
+}
+
+.cust-width {
+  width: 1300px;
+}
+
+.cust-shadow {
+  box-shadow: 2px 2px 10px rgba(10, 10, 10, 0.452);
+}
+.cust-link {
+  text-decoration: none;
+}
+.container-carousel {
+  width: 800px;
+}
+.carousel {
+  height: 400px;
+}
+.img-banner {
+  height: 400px;
+}
+.cust-card-bg {
+  background-color: #203239;
+}
+.cust-card-img {
+  height: 432px;
+}
+.outline-none {
+  outline: none !important;
+}
+.card {
+  border: 0;
+}
+
+.primary-text {
+  color: #f0a500;
+}
+.hero-section {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(61, 52, 52, 0.356),
+      rgb(20, 18, 18)
+    ),
+    url(img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.header-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-header,
+.btn-hero {
+  font-weight: 500 !important;
+}
+.card-img {
+  height: 288px;
+  width: 288px;
+}
+.items-section {
+  background-color: #e2ded0;
+}
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+.btn-hero a {
+  text-decoration: none;
+  color: #203239;
+  font-weight: 800;
+}
+.circle-img {
+  border-radius: 100%;
+}
+.profile-page-section {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(61, 52, 52, 0.356),
+      rgb(20, 18, 18)
+    ),
+    url(img/profilepage-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.list-group-item,
+.floating-text,
+.form-bg,
+.btn-cust {
+  background-color: #141e27;
+  color: #e2ded0;
+}
+.profile-title {
+  color: #e2ded0;
+}
+.contact-us-body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(61, 52, 52, 0.356),
+      rgb(20, 18, 18)
+    ),
+    url(img/contact-us.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.view-order-body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(61, 52, 52, 0.356),
+      rgb(20, 18, 18)
+    ),
+    url(img/order.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.update-body::before,
+.index-body::before,
+.sign-up-body::before {
+  display: none;
+}
+.cust-btn {
+  background-color: #e67e22;
+}
+
+.sign-up-body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(61, 52, 52, 0.356),
+      rgb(20, 18, 18)
+    ),
+    url(img/sign-up.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

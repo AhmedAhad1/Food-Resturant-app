@@ -1,0 +1,27 @@
+.admin-page {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(61, 52, 52, 0.356),
+      rgb(20, 18, 18)
+    ),
+    url(img/admin-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.admin-edit-delete {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(61, 52, 52, 0.356),
+      rgb(20, 18, 18)
+    ),
+    url(img/admin-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-hover {
+  transition: 0.3s all;
+}
+.nav-hover:hover {
+  background-color: #495057;
+}
